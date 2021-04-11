@@ -6,13 +6,12 @@ body{
 }
 a {
     text-decoration: none;
-    font-size: 100%;
+    font-size: 90%;
+    letter-spacing:0.1em;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
 /*NavBar*/
 nav {
     display: flex;
@@ -61,52 +60,114 @@ nav {
     margin-top: 0;
     margin-bottom: 15px;
 }
-/**********/
-.blocEclosion{
+/*****Section Triple*****/
+.Triple{
     height: 400px;
     
 }
-.title_eclosion {
+.title_triple {
     background-color: #334d5c;
     height: 80px;
     width: 300px;
     text-align: center;
     margin: auto;
 }
-.title_eclosion>h1{
+.title_triple>h1{
     color: white;
     font-size: 50px;
     padding-top: 15px;
 }
-.contenuEclosion{
+.contenuTriple{
     display: flex;
     justify-content: space-around;
 }
-.txtEclosion {
+.txtTriple {
     width: 50%;
     margin-top: 50px;
 }
-.contenuEclosion>div>img {
+.contenuTriple>div>img {
     margin-top: 70px;
 }
+/**************/
+/***** Div Icon Between Section ******/ 
 .iconUn{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     background-color: #eae3d6;
+    height: 140px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .iconUn>div>img {
     width: 100px;
     height: 100px;
 }
+.iconDeux {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #eae3d6;
+    height: 180px;
+}
+.iconDeux>div>img {
+    width: 100px;
+    height: 100px;
+}
+.withPB {
+    padding-bottom: 40px;
+    
+}
+/******************/
+footer{
+    background-color: #393a3b;
+}
+.blocFooter {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.iconFooter>p+ul>li img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.iconFooter>p {
+    color: white;
+    font-size: 20px;
+    letter-spacing:0.1em;
+    padding: 20px 10px;
+}
+ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+li {
+    margin-left:2px;
+    float:left;
+}
+
+.copyRight {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-size: 10px;
+    padding: 20px 10px;
+}
+/****************/
+
+
+
+
+
+
 
 
 /*CSS txt sous img*/
 /*p>span*/
 /*** 
-    df 
-    fd:col
-    origin-items: center
+df 
+fd:col
+origin-items: center
 ***/
